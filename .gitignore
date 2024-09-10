@@ -1,0 +1,87 @@
+# Compiled Object files
+*.o
+*.obj
+*.lo
+*.slo
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Compiled Static libraries
+*.a
+*.lib
+
+# Executable files
+*.exe
+*.out
+*.app
+
+# CMake generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+Makefile
+build/
+Testing/
+CTestTestfile.cmake
+CTestCoverageLog*
+CTestCostData.txt
+
+# Google Test generated files (if installed with FetchContent)
+googletest/
+
+# Temporary files
+*~
+*.swp
+*.tmp
+*.temp
+.cache/
+
+# Backup files
+*.bak
+*.old
+
+# Logs
+*.log
+
+# Coverage and profiling reports
+*.gcda
+*.gcno
+*.gcov
+*.prof
+*.profraw
+
+# IDE specific files (VSCode, CLion, etc.)
+
+# Visual Studio Code
+.vscode/
+.vscode/settings.json
+.vscode/c_cpp_properties.json
+
+# CLion IDE
+.idea/
+*.iml
+cmake-build-debug/
+cmake-build-release/
+
+# Qt Creator
+*.pro.user
+*.qmake.stash
+
+# Xcode
+*.xcworkspace
+*.xcuserdata/
+*.xcodeproj/
+*.xcuserdatad/
+
+# Mac specific files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows specific files
+Thumbs.db
+Desktop.ini
